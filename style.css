@@ -390,6 +390,11 @@ header{
         grid-template-columns: repeat(3, 1fr);
         padding: 40px;
     }
+    .navbar {
+        display: flex;
+        align-items: center;
+        column-gap: 1.5rem;
+        } 
 }
 @media (max-width:875px){
    section{
@@ -398,7 +403,11 @@ header{
     .hom-text h1{
         font-size: 3rem;
     }
-       
+    .navbar {
+        display: flex;
+        align-items: center;
+        column-gap: 1.5rem;
+        }   
 }
 @media (max-width: 770px) {
     
@@ -437,6 +446,11 @@ header{
     .footer{
         grid-template-columns: repeat(3,auto);
     }
+    .navbar {
+    display: flex;
+    align-items: center;
+    column-gap: 1.5rem;
+    } 
 }
 @media (max-width: 700px){
     .header{
@@ -453,6 +467,7 @@ header{
     }
     .navbar {
         display: none;
+        flex-direction: column;
     } 
     
     .nav-link{
@@ -472,6 +487,10 @@ header{
 @media (max-width:500px){
     .heading h2 br{
         display: contents;
+    }
+    .navbar {
+        display: flex;
+        flex-direction: column;
     }
     .service-content{
         justify-content: center;
